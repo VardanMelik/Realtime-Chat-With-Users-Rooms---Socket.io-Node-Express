@@ -1,0 +1,25 @@
+{
+    "name": "realtimechat",
+    "version": "1.0.0",
+    "description": "Real Time Chat",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VardanMelik/Realtime-Chat-With-Users-Rooms---Socket.io-Node-Express.git"
+    },
+    "author": "Vardan Meliksetyan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/VardanMelik/Realtime-Chat-With-Users-Rooms---Socket.io-Node-Express/issues"
+    },
+    "homepage": "https://github.com/VardanMelik/Realtime-Chat-With-Users-Rooms---Socket.io-Node-Express#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "socket.io": "^4.1.3"
+    }
+}
